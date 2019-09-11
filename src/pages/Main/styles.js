@@ -46,7 +46,7 @@ export const SubmitButton = styled.button.attrs(props => {
   }
 
   ${props =>
-    props.loading &&
+    props.isLoading &&
     css`
       svg {
         animation: ${rotate} 2s linear infinite;
